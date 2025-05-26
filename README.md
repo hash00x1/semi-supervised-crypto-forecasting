@@ -100,12 +100,6 @@ class MonteCarloAttention(nn.Module):
         return torch.bmm(attention_weights.transpose(1, 2), lstm_output)
 ```
 
-## 💼 **Business Impact**
-
-- **Risk Reduction**: 15% improvement in portfolio volatility prediction
-- **Trading Efficiency**: 23% increase in profitable trade identification
-- **Cost Savings**: Reduced data labeling requirements by 40%
-
 ## 🛠️ **Technical Skills Demonstrated**
 
 - **Deep Learning**: PyTorch, LSTM networks, attention mechanisms
