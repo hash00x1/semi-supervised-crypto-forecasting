@@ -42,7 +42,7 @@ This project addresses the challenge of cryptocurrency price prediction in data-
 | **Accuracy** | 59.0% | 55.0% | 51.0% |
 | **F1-Score** | 0.37 | 0.35 | 0.42 |
 
-![Model Performance](results/figures/performance_comparison.png)
+![Model Performance](docs/results/performance_comparison.png)
 
 ## 🚀 **Quick Start**
 
