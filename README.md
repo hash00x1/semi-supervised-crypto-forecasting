@@ -21,15 +21,14 @@ This project addresses the challenge of cryptocurrency price prediction in data-
 
 ## 📈 **Results Highlights**
 
-**On Training Data:**
-**Without Monte Carlo:**
+**Training Data without Monte Carlo:**
 | Metric | 60% Labeled Data | 80% Labeled Data | 100% Labeled Data |
 |--------|------------------|------------------|-------------------|
 | **Accuracy** | 72.5% | 61.5% | 52.9% |
 | **ROC-AUC** | 0.754 | 0.649 | 0.550 |
 | **Avg. F1-Score** | 0.59 | 0.525 | 0.475 |
 
-**With added Monte Carlo:**
+**Training Data with added Monte Carlo:**
 | Metric | 60% Labeled Data | 80% Labeled Data | 100% Labeled Data |
 |--------|------------------|------------------|-------------------|
 | **Accuracy** | 76.0% | 60.3% | 52.8% |
