@@ -8,7 +8,7 @@ A comprehensive framework implementing semi-supervised learning techniques for c
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-red.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> A novel deep learning framework for cryptocurrency price prediction using semi-supervised learning with Monte Carlo attention mechanisms.
+> A simple deep learning framework for cryptocurrency price prediction using semi-supervised learning with Monte Carlo attention mechanisms.
 
 ## 🎯 **Project Overview**
 
