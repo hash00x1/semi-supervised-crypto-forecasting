@@ -12,7 +12,7 @@ A comprehensive framework implementing semi-supervised learning techniques for c
 
 ## 🎯 **Project Overview**
 
-This project addresses the challenge of cryptocurrency price prediction in data-scarce environments by implementing a semi-supervised learning framework that achieves **moderate accuracy of 0.59 price movement classification** on previously unseen data samples and with only 80% labeled training data after just 10 training iterations.
+This project addresses the challenge of cryptocurrency price prediction in data-scarce environments by implementing a semi-supervised learning framework that **achieves strong accuracy of 0.76 on training data** and  **moderate accuracy of 0.59 price movement classification on previously unseen test data samples** and with only 60% labeled training data after just 10 training iterations.
 
 ### **Key Innovations:**
 - 🧠 **Monte Carlo Attention LSTM**: Innnovative architecture combining bidirectional LSTMs with uncertainty-aware attention
