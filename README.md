@@ -12,21 +12,35 @@ A comprehensive framework implementing semi-supervised learning techniques for c
 
 ## 🎯 **Project Overview**
 
-This project addresses the challenge of cryptocurrency price prediction in data-scarce environments by implementing a semi-supervised learning framework that achieves **85.3% accuracy** on price movement classification with only 80% labeled data.
+This project addresses the challenge of cryptocurrency price prediction in data-scarce environments by implementing a semi-supervised learning framework that achieves **moderate accuracy of 0.59 price movement classification** on previously unseen data samples and with only 80% labeled training data after just 10 training iterations.
 
 ### **Key Innovations:**
-- 🧠 **Monte Carlo Attention LSTM**: Novel architecture combining bidirectional LSTMs with uncertainty-aware attention
+- 🧠 **Monte Carlo Attention LSTM**: Innnovative architecture combining bidirectional LSTMs with uncertainty-aware attention
 - 🏷️ **Intelligent Pseudo-Labeling**: High-confidence sample selection using Monte Carlo dropout
-- 📊 **Multi-Modal Analysis**: Both classification (price direction) and regression (price values) capabilities
 - ⚡ **Scalable Architecture**: Processes 40+ cryptocurrency DAOs simultaneously
 
 ## 📈 **Results Highlights**
 
-| Metric | 80% Labeled Data | 90% Labeled Data | 100% Labeled Data |
+**On Training Data:**
+**Without Monte Carlo:**
+| Metric | 60% Labeled Data | 80% Labeled Data | 100% Labeled Data |
 |--------|------------------|------------------|-------------------|
-| **Accuracy** | 85.3% | 87.1% | 88.9% |
+| **Accuracy** | 72.5% | 61.5% | 52.9% |
+| **ROC-AUC** | 0.754 | 0.649 | 0.550 |
+| **Avg. F1-Score** | 0.59 | 0.525 | 0.475 |
+
+**With added Monte Carlo:**
+| Metric | 60% Labeled Data | 80% Labeled Data | 100% Labeled Data |
+|--------|------------------|------------------|-------------------|
+| **Accuracy** | 76.0% | 60.3% | 52.8% |
 | **ROC-AUC** | 0.891 | 0.903 | 0.912 |
-| **F1-Score** | 0.847 | 0.864 | 0.881 |
+| **F1-Score** | 0.57 | 0.52 | 0.48 |
+
+**On Unseen Test Data:**
+| Metric | 60% Labeled Data | 80% Labeled Data | 100% Labeled Data |
+|--------|------------------|------------------|-------------------|
+| **Accuracy** | 59.0% | 55.0% | 51.0% |
+| **F1-Score** | 0.37 | 0.35 | 0.42 |
 
 ![Model Performance](results/figures/performance_comparison.png)
 
@@ -59,7 +73,7 @@ DAO Governance Data → Normalization → LSTM Network → Quantification → Re
 ## 📊 **Dataset**
 
 - **40 cryptocurrency DAOs** tracked over 2,3 years in average with 4,5 years max.
-- **45+ features** including governance activity, trading volume, technical indicators
+- **17 features** including governance activity, trading volume, technical indicators
 - **120-day sliding windows** for temporal pattern recognition
 - **Real-time data integration** via DeFi Llama and Coinbase APIs
 
@@ -109,9 +123,8 @@ Read the full research paper: [Financial Time-Series Forecasting with Semi-Super
 ## 🤝 **Contact**
 
 **Lukas Beckenbauer**
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐙 GitHub: [github.com/yourusername](https://github.com/yourusername)
+- 📧 Email: lukas.beckenbauer@tum.de
+- 🐙 GitHub: [github.com/hash00x1](https://github.com/hash00x1)
 
 ---
 
