@@ -99,7 +99,7 @@ class MonteCarloAttention(nn.Module):
         return torch.bmm(attention_weights.transpose(1, 2), lstm_output)
 ```
 
-## 🛠️ **Technical Skills Demonstrated**
+## 🛠️ **Technical Foundations**
 
 - **Deep Learning**: PyTorch, LSTM networks, attention mechanisms
 - **Machine Learning**: Semi-supervised learning, pseudo-labeling, ensemble methods
