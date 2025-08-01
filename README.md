@@ -105,7 +105,6 @@ class MonteCarloAttention(nn.Module):
 - **Machine Learning**: Semi-supervised learning, pseudo-labeling, ensemble methods
 - **Data Engineering**: Time series processing, feature engineering, API integration
 - **Financial Analysis**: Technical indicators, risk metrics, portfolio optimization
-- **Software Engineering**: Modular code structure, testing, documentation
 
 ## 📝 **Research Paper**
 
